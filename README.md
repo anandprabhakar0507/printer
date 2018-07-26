@@ -16,6 +16,25 @@ $ wget https://raw.githubusercontent.com/m4ll0k/printer/master/printer.go
 $ mv printer.go myproject/lib
 ```
 
+Supported
+--
+__Supported Labels:__
+
+```go
+// [i] ...
+printer.Info(str string, colorable bool)
+// [+] ...
+printer.Plus(str string, colorable bool)
+// [-] ..
+printer.Less(str string, colorable bool)
+// [*] ..
+printer.Test(str string, colorable bool)
+// [!] ...
+printer.Warn(str string, colorable bool)
+// [?] ...
+printer.Ask(str string, colorable bool)
+```
+
 Usage
 --
 ```go
