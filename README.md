@@ -18,7 +18,7 @@ $ mv printer.go myproject/lib
 
 Usage
 --
-```
+```go
 // print the string without color
 printer.Info("Hello Word..",false)
 
