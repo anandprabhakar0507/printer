@@ -18,3 +18,11 @@ $ mv printer.go myproject/lib
 
 Usage
 --
+```
+// print the string without color
+printer.Info("Hello Word..",false)
+
+// print the string with color
+printer.Info("Hello Word..",true)
+
+```
