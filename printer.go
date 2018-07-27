@@ -9,10 +9,10 @@ package printer
 import "fmt"
 
 // colors
-var BLACK   = "\033[1;30m"
+var BLACK   = "\033[1;30m"  
 var LBLACK  = "\033[0;30m"
-var RED     = "\033[1;31m"
-var LRED    = "\033[0;31m"
+var RED     = "\033[1;31m" 
+var LRED    = "\033[0;31m" 
 var GREEN   = "\033[1;32m"
 var LGREEN  = "\033[0;32m"
 var YELLOW  = "\033[1;33m"
