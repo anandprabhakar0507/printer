@@ -22,17 +22,17 @@ __Supported Labels:__
 
 ```go
 // [i] ...
-printer.Info(str string, colorable bool)
+printer.Info(str string, color bool)
 // [+] ...
-printer.Plus(str string, colorable bool)
+printer.Plus(str string, color bool)
 // [-] ..
-printer.Less(str string, colorable bool)
+printer.Less(str string, color bool)
 // [*] ..
-printer.Test(str string, colorable bool)
+printer.Test(str string, color bool)
 // [!] ...
-printer.Warn(str string, colorable bool)
+printer.Warn(str string, color bool)
 // [?] ...
-printer.Ask(str string, colorable bool)
+printer.Ask(str string, color bool)
 ```
 
 Usage
