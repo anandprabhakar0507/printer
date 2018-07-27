@@ -44,4 +44,6 @@ printer.Info("Hello Word..",false)
 // print the string with color
 printer.Info("Hello Word..",true)
 
+//Costum your print
+fmt.Printf("%s%s%s %sHello Word!%s\n",printer.RED,printer.WARN,printer.RESET,printer.LRED,printer.RESET)
 ```
